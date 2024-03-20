@@ -14,14 +14,17 @@ let todo = []
             console.log(i,todo[i]);
         }
         console.log("------------");
-    }else if(req == "add"){
+    }
+    else if(req == "add"){
         let task = prompt("Please Enter the task you want to add..");
         todo.push(task);
         console.log("task added");
-    }else if(req == "delete"){
+    }
+    else if(req == "delete"){
         let idx = prompt("Please enter the task index ");
         todo.splice(idx,1);
-    }else{
+    }
+    else{
         alert("Wrong request");
     }
 

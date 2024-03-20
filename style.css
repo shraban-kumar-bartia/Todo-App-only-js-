@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    padding-left: 650px;
+    padding-top: 250px;
+    background-color: rgba(190, 220, 20, 0.201);
+}
+
+h1{
+    color: rgb(6, 27, 192);
+}
+
+span{
+    color: tomato;
+}
